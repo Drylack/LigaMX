@@ -1,0 +1,23 @@
+{
+  "name": "ligamx",
+  "version": "1.0.0",
+  "description": "Proyecto futbol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drylack/LigaMX.git"
+  },
+  "keywords": [
+    "Liga",
+    "futbol"
+  ],
+  "author": "Edgar Macias <https://github.com/Drylack/LigaMX.git>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Drylack/LigaMX/issues"
+  },
+  "homepage": "https://github.com/Drylack/LigaMX#readme"
+}
