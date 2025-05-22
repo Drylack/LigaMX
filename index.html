@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga MX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-right">
+            <button id="login-button">Iniciar Sesión</button>
+            <button id="register-button">Registrarse</button>
+            <button id="logout-button">Cerrar Sesión</button>
+        </div>
+        <div class="logo-container">
+            <img src="./Recursos/MX_logo.png" alt="Logo de Liga MX" class="logo">
+            <div class="logo-buttons"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#ultima-jornada">Última Jornada</a></li>
+                <li><a href="#jornadas">Jornadas</a></li>
+                <li><a href="#clasificacion">Clasificación</a></li>
+                <li><a href="#liguilla">Liguilla</a></li>
+                <li><a href="#estadisticas">Estadísticas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="ultima-jornada">
+            <h2>Última Jornada</h2>
+            <div class="ultima-jornada-container">
+                <div class="partido">
+                    <div class="info-partido">
+                        <div class="equipos">
+                            <div class="equipo">
+                                <img src="./Recursos/Club_Toluca_Logo.svg.png" alt="Toluca" class="escudo">
+                                <span>Toluca</span>
+                            </div>
+                            <span class="vs">vs</span>
+                            <div class="equipo">
+                                <img src="./Recursos/Escudo_del_Cruz_Azul_AC.svg.png" alt="Cruz Azul" class="escudo">
+                                <span>Cruz Azul</span>
+                            </div>
+                        </div>
+                        <p>Fecha: 19 de abril</p>
+                        <p>Estadio: Nemesio Díez Riega</p>
+                    </div>
+                    <div class="resultado">
+                        <p><strong>Resultado:</strong> 2 - 2</p>
+                    </div>
+                </div>
+                <div class="partido">
+                    <div class="info-partido">
+                        <div class="equipos">
+                            <div class="equipo">
+                                <img src="./Recursos/atlas-fc-logo-0-2048x2048-1.png" alt="Atlas" class="escudo">
+                                <span>Atlas</span>
+                            </div>
+                            <span class="vs">vs</span>
+                            <div class="equipo">
+                                <img src="./Recursos/Chivas-Logo-2018.png" alt="Chivas" class="escudo">
+                                <span>Chivas</span>
+                            </div>
+                        </div>
+                        <p>Fecha: 19 de abril</p>
+                        <p>Estadio: Jalisco, Guadalajara</p>
+                    </div>
+                    <div class="resultado">
+                        <p><strong>Resultado:</strong> 1 - 1</p>
+                    </div>
+                </div>
+                <div class="partido">
+                    <div class="info-partido">
+                        <div class="equipos">
+                            <div class="equipo">
+                                <img src="./Recursos/club-leon-logo.png" alt="León" class="escudo">
+                                <span>León</span>
+                            </div>
+                            <span class="vs">vs</span>
+                            <div class="equipo">
+                                <img src="./Recursos/Club_de_Fútbol_Monterrey_2019_Logo.svg.png" alt="Monterrey" class="escudo">
+                                <span>Monterrey</span>
+                            </div>
+                        </div>
+                        <p>Fecha: 20 de abril</p>
+                        <p>Estadio: León</p>
+                    </div>
+                    <div class="resultado">
+                        <p><strong>Resultado:</strong> 0 - 2</p>
+                    </div>
+                </div>
+        </section>
+        <section id="jornadas">
+            <h2>Jornadas</h2>
+            <div class="jornadas-container">
+                <div class="card">
+                    <h3>Jornada 1</h3>
+                    <p><strong>Querétaro 0 - 1 América</strong></p>
+                    <p><strong>Mazatlán 1 - 1 Juarez</strong></p>
+                    <p><strong>Tijuana 2 - 4 Toluca</strong></p>
+                    <p><strong>San Luis 1 - 3 Tigres</strong></p>
+                    <p><strong>Chivas 1 - 0 Santos</strong></p>
+                    <p><strong>Cruz Azul 1 - 1 Atlas</strong></p>
+                    <p><strong>Pumas 2 - 1 Necaxa</strong></p>
+                    <p><strong>Monterrey 1 - 1 Puebla</strong></p>
+                    <p><strong>Pachuca 1 - 2 León</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 2</h3>
+                    <p><strong>América 1 - 1 Tijuana</strong></p>
+                    <p><strong>Puebla 1 - 2 San Luis</strong></p>
+                    <p><strong>Tigres 2 - 1 Mazatlán</strong></p>
+                    <p><strong>Necaxa 3 - 2 Chivas</strong></p>
+                    <p><strong>Juarez 1 - 0 Cruz Azul</strong></p>
+                    <p><strong>Toluca 1 - 1 Monterrey</strong></p>
+                    <p><strong>Atlas 1 - 2 León</strong></p>
+                    <p><strong>Querétaro 3 - 2 Pumas</strong></p>
+                    <p><strong>Pachuca 2 - 1 Santos</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 3</h3>
+                    <p><strong>San Luis 0 - 3 Necaxa</strong></p>
+                    <p><strong>Tijuana 2 - 1 Querétaro</strong></p>
+                    <p><strong>Mazatlán 2 - 1 Toluca</strong></p>
+                    <p><strong>Cruz Azul 1 - 1 Puebla</strong></p>
+                    <p><strong>León 1 - 0 Juarez</strong></p>
+                    <p><strong>Chivas 1 - 1 Tigres</strong></p>
+                    <p><strong>Santos 1 - 4 América</strong></p>
+                    <p><strong>Monterrey 2 - 3 Pachuca</strong></p>
+                    <p><strong>Pumas 0 - 0 Atlas</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 4</h3>
+                    <p><strong>América 3 - 0 San Luis</strong></p>
+                    <p><strong>Puebla 0 - 1 Mazatlán</strong></p>
+                    <p><strong>León 2 - 1 Chivas</strong></p>
+                    <p><strong>Tigres 4 - 0 Tijuana</strong></p>
+                    <p><strong>Necaxa 1 - 3 Cruz Azul</strong></p>
+                    <p><strong>Atlas 3 - 3 Monterrey</strong></p>
+                    <p><strong>Querétaro 0 - 1 Pachuca</strong></p>
+                    <p><strong>Juarez 1 - 0 Santos</strong></p>
+                    <p><strong>Pumas 1 - 1 Toluca</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 5</h3>
+                    <p><strong>Mazatlán 1 - 2 León</strong></p>
+                    <p><strong>Tijuana 2 - 3 Cruz Azul</strong></p>
+                    <p><strong>América 4 - 0 Juarez</strong></p>
+                    <p><strong>Chivas 1 - 1 Querétaro</strong></p>
+                    <p><strong>Pachuca 0 - 0 Atlas</strong></p>
+                    <p><strong>Monterrey 1 - 0 Necaxa</strong></p>
+                    <p><strong>Toluca 1 - 0 Tigres</strong></p>
+                    <p><strong>Santos 0 - 2 Puebla</strong></p>
+                    <p><strong>San Luis 2 - 3 Pumas</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 6</h3>
+                    <p><strong>Necaxa 3 - 2 Santos</strong></p>
+                    <p><strong>Querétaro 1 - 0 San Luis</strong></p>
+                    <p><strong>Puebla 1 - 2 América</strong></p>
+                    <p><strong>León 3 - 3 Toluca</strong></p>
+                    <p><strong>Tigres 2 - 1 Atlas</strong></p>
+                    <p><strong>Juarez 2 - 1 Monterrey</strong></p>
+                    <p><strong>Cruz Azul 2 - 1 Pachuca</strong></p>
+                    <p><strong>Pumas 1 - 0 Mazatlán</strong></p>
+                    <p><strong>Chivas 2 - 1 Tijuana</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 7</h3>
+                    <p><strong>Tijuana 1 - 2 Juarez</strong></p>
+                    <p><strong>Mazatlán 1 - 1 Santos</strong></p>
+                    <p><strong>América 2 - 3 Necaxa</strong></p>
+                    <p><strong>Atlas 3 - 2 Puebla</strong></p>
+                    <p><strong>Tigres 2 - 1 Cruz Azul</strong></p>
+                    <p><strong>Toluca 2 - 1 Chivas</strong></p>
+                    <p><strong>Querétaro 2 - 4 Monterrey</strong></p>
+                    <p><strong>San Luis 1 - 2 León</strong></p>
+                    <p><strong>Pachuca 2 - 1 Pumas</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 8</h3>
+                    <p><strong>Necaxa 3 - 1 Mazatlán</strong></p>
+                    <p><strong>Puebla 2 - 0 Tijuana</strong></p>
+                    <p><strong>Juarez 0 - 4 Toluca</strong></p>
+                    <p><strong>León 1 - 0 Tigres</strong></p>
+                    <p><strong>Monterrey 3 - 1 San Luis</strong></p>
+                    <p><strong>Chivas 2 - 1 Pachuca</strong></p>
+                    <p><strong>Pumas 0 - 2 América</strong></p>
+                    <p><strong>Santos 2 - 0 Atlas</strong></p>
+                    <p><strong>Cruz Azul 1 - 0 Querétaro</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 9</h3>
+                    <p><strong>Atlas 0 - 4 Necaxa</strong></p>
+                    <p><strong>América 1 - 1 León</strong></p>
+                    <p><strong>Santos 0 - 1 Cruz Azul</strong></p>
+                    <p><strong>Tigres 0 - 1 Juarez</strong></p>
+                    <p><strong>Tijuana 4 - 2 Pumas</strong></p>
+                    <p><strong>Mazatlán 1 - 0 Monterrey</strong></p>
+                    <p><strong>Pachuca 2 - 1 Puebla</strong></p>
+                    <p><strong>Toluca 5 - 0 Querétaro</strong></p>
+                    <p><strong>San Luis 3 - 1 Chivas</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 10</h3>
+                    <p><strong>Mazatlán 1- 1 Cruz Azul</strong></p>
+                    <p><strong>América 3 - 0 Toluca</strong></p>
+                    <p><strong>Juarez 2 - 2 Pachuca</strong></p>
+                    <p><strong>Necaxa 1 - 2 Tigres</strong></p>
+                    <p><strong>León 2 - 1 Tijuana</strong></p>
+                    <p><strong>Pumas 0 - 1 Chivas</strong></p>
+                    <p><strong>Querétaro 2 - 0 Puebla</strong></p>
+                    <p><strong>Atlas 3 - 1 San Luis</strong></p>
+                    <p><strong>Monterrey 4 - 2 Santos</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 11</h3>
+                    <p><strong>San Luis 1 - 0 Juarez</strong></p>
+                    <p><strong>Tigres 1 - 0 Querétaro</strong></p>
+                    <p><strong>Puebla 1 - 3 Pumas</strong></p>
+                    <p><strong>Toluca 5 - 2 Necaxa</strong></p>
+                    <p><strong>Pachuca 1 - 1 Mazatlán</strong></p>
+                    <p><strong>Cruz Azul 1 - 1 Monterrey</strong></p>
+                    <p><strong>Chivas 0 - 0 América</strong></p>
+                    <p><strong>Santos 2 - 1 León</strong></p>
+                    <p><strong>Tijuana 3 - 4 Atlas</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 12</h3>
+                    <p><strong>Necaxa 2 - 1 León</strong></p>
+                    <p><strong>Querétaro 1 - 0 Mazatlán</strong></p>
+                    <p><strong>Puebla 0 - 3 Toluca</strong></p>
+                    <p><strong>Tigres 3 - 0 Santos</strong></p>
+                    <p><strong>Cruz Azul 3 - 0 San Luis</strong></p>
+                    <p><strong>Juarez 1 - 1 Chivas</strong></p>
+                    <p><strong>Atlas 1 - 3 América</strong></p>
+                    <p><strong>Pumas 1 - 3 Monterrey</strong></p>
+                    <p><strong>Pachuca 4 - 1 Tijuana</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 13</h3>
+                    <p><strong>Necaxa 2 - 0 Querétaro</strong></p>
+                    <p><strong>Mazatlán 3 - 2 Atlas</strong></p>
+                    <p><strong>Juarez 2 - 0 Puebla</strong></p>
+                    <p><strong>Toluca 3 - 2 Pachuca</strong></p>
+                    <p><strong>América 3 - 0 Tigres</strong></p>
+                    <p><strong>Chivas 0 - 1 Cruz Azul</strong></p>
+                    <p><strong>Monterrey 1 - 2 Tijuana</strong></p>
+                    <p><strong>Santos 2 - 3 San Luis</strong></p>
+                    <p><strong>León 1 - 2 Pumas</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 14</h3>
+                    <p><strong>Querétaro 1 - 1 León</strong></p>
+                    <p><strong>Tijuana 1 - 2 Necaxa</strong></p>
+                    <p><strong>Puebla 0 - 0 Tigres</strong></p>
+                    <p><strong>Atlas 1 - 1 Juarez</strong></p>
+                    <p><strong>Pachuca 1 - 0 América</strong></p>
+                    <p><strong>San Luis 2 - 1 Mazatlán</strong></p>
+                    <p><strong>Monterrey 3 - 1 Chivas</strong></p>
+                    <p><strong>Cruz Azul 3 - 2 Pumas</strong></p>
+                    <p><strong>Toluca 2 - 1 Santos</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 15</h3>
+                    <p><strong>Tijuana 2 - 1 San Luis</strong></p>
+                    <p><strong>Necaxa 3 - 5 Pachuca</strong></p>
+                    <p><strong>Mazatlán 1 - 1 Chivas</strong></p>
+                    <p><strong>León 1 - 0 Puebla</strong></p>
+                    <p><strong>Pumas 0 - 0 Juarez</strong></p>
+                    <p><strong>Tigres 2 - 1 Monterrey</strong></p>
+                    <p><strong>Atlas 2 - 3 Toluca</strong></p>
+                    <p><strong>América 0 - 0 Cruz Azul</strong></p>
+                    <p><strong>Santos 1 - 2 Querétaro</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 16</h3>
+                    <p><strong>Pachuca 0 - 0 Tigres</strong></p>
+                    <p><strong>Chivas 1 - 0 Puebla</strong></p>
+                    <p><strong>Juarez 2 - 2 Necaxa</strong></p>
+                    <p><strong>Cruz Azul 2 - 1 León</strong></p>
+                    <p><strong>Monterrey 1 - 0 América</strong></p>
+                    <p><strong>Querétaro 1 - 2 Atlas</strong></p>
+                    <p><strong>San Luis 0 - 1 Toluca</strong></p>
+                    <p><strong>Mazatlán 0 - 2 Tijuana</strong></p>
+                    <p><strong>Pumas 2 - 0 Santos</strong></p>
+                </div>
+                <div class="card">
+                    <h3>Jornada 17</h3>
+                    <p><strong>Puebla 0 - 1 Necaxa</strong></p>
+                    <p><strong>América 5 - 0 Mazatlán</strong></p>
+                    <p><strong>Toluca 2 - 2 Cruz Azul</strong></p>
+                    <p><strong>Tigres 2 - 1 Pumas</strong></p>
+                    <p><strong>Atlas 1 - 1 Chivas</strong></p>
+                    <p><strong>Santos 0 - 4 Tijuana</strong></p>
+                    <p><strong>San Luis 2 - 1 Pachuca</strong></p>
+                    <p><strong>León 0 - 2 Monterrey</strong></p>
+                    <p><strong>Juarez 0 - 2 Querétaro</strong></p>
+                </div>
+            </div>
+        </section>
+        <section id="clasificacion">
+            <h2>Clasificación</h2>
+            <table class="tabla-clasificacion">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Equipo</th>
+                        <th>J</th>
+                        <th>G</th>
+                        <th>E</th>
+                        <th>P</th>
+                        <th>Puntos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/Club_Toluca_Logo.svg.png" alt="Toluca" class="escudo">
+                            Toluca
+                        </td>
+                        <td>17</td>
+                        <td>11</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>37</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/Club-America-Logo.png" alt="América" class="escudo">
+                            América
+                        </td>
+                        <td>17</td>
+                        <td>10</td>
+                        <td>4</td>
+                        <td>3</td>
+                        <td>34</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/Escudo_del_Cruz_Azul_AC.svg.png" alt="Cruz Azul" class="escudo">
+                            Cruz Azul
+                        </td>
+                        <td>17</td>
+                        <td>9</td>
+                        <td>6</td>
+                        <td>2</td>
+                        <td>33</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/club-tigres-uanl-logo-1.png" alt="Tigres" class="escudo">
+                            Tigres
+                        </td>
+                        <td>17</td>
+                        <td>10</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>33</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/Club_Necaxa_Logo.svg.png" alt="Necaxa" class="escudo">
+                            Necaxa
+                        </td>
+                        <td>17</td>
+                        <td>10</td>
+                        <td>1</td>
+                        <td>6</td>
+                        <td>31</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/club-leon-logo.png" alt="León" class="escudo">
+                            León
+                        </td>
+                        <td>17</td>
+                        <td>9</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/Club_de_Fútbol_Monterrey_2019_Logo.svg.png" alt="Monterrey" class="escudo">
+                            Monterrey
+                        </td>
+                        <td>17</td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/Pachuca_Tuzos_logo.svg.png" alt="Pachuca" class="escudo">
+                            Pachuca
+                        </td>
+                        <td>17</td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/FC_Juárez_logo.svg.png" alt="Juarez" class="escudo">
+                            Juarez
+                        </td>
+                        <td>17</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>5</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/pumas-unam-logo-1-1.png" alt="Pumas" class="escudo">
+                            Pumas
+                        </td>
+                        <td>17</td>
+                        <td>6</td>
+                        <td>3</td>
+                        <td>8</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/Chivas-Logo-2018.png" alt="Chivas" class="escudo">
+                            Chivas
+                        </td>
+                        <td>17</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/queretaro-fc-logo (1).png" alt="Querétaro" class="escudo">
+                            Querétaro
+                        </td>
+                        <td>17</td>
+                        <td>6</td>
+                        <td>2</td>
+                        <td>9</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/club-tijuana-logo-1.png" alt="Tijuana" class="escudo">
+                            Tijuana
+                        </td>
+                        <td>17</td>
+                        <td>6</td>
+                        <td>1</td>
+                        <td>10</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/atlas-fc-logo-0-2048x2048-1.png" alt="Atlas" class="escudo">
+                            Atlas
+                        </td>
+                        <td>17</td>
+                        <td>4</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/ASL17logo.png" alt="San Luis" class="escudo">
+                            San Luis
+                        </td>
+                        <td>17</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>11</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/mazatlan_f.c.-logo.png" alt="Mazatlán" class="escudo">
+                            Mazatlán
+                        </td>
+                        <td>17</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>8</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/club-puebla-logo-1.png" alt="Puebla" class="escudo">
+                            Puebla
+                        </td>
+                        <td>17</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>12</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td class="equipo-container">
+                            <img src="./Recursos/santos-laguna-logo.png" alt="Santos" class="escudo">
+                            Santos
+                        </td>
+                        <td>17</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>14</td>
+                        <td>7</td>
+                    </tr>                    
+                </tbody>
+            </table>
+        </section>
+        <section id="liguilla">
+            <h2>Liguilla</h2>
+            <div class="liguilla-container">
+                <div class="fase fase-cuartos">
+                    <h3>Cuartos de Final</h3>
+                    <div class="partido">
+                        <div class="equipos">
+                            <div class="equipo">
+                                <div class="equipo">
+                                    <img src="./Recursos/Club_Toluca_Logo.svg.png" alt="Toluca" class="escudo">
+                                    <span>Toluca</span>
+                                </div>
+                                <span class="vs">vs</span>
+                                <img src="./Recursos/Club_de_Fútbol_Monterrey_2019_Logo.svg.png" alt="Monterrey" class="escudo">
+                                <span>Monterrey</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partido">
+                        <div class="equipos">
+                            <div class="equipo">
+                                <img src="./Recursos/Club-America-Logo.png" alt="América" class="escudo">
+                                <span>América</span>
+                            </div>
+                            <span class="vs">vs</span>
+                            <div class="equipo">
+                                <img src="./Recursos/Pachuca_Tuzos_logo.svg.png" alt="Pachuca" class="escudo">
+                                <span>Pachuca</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partido">
+                        <div class="equipos">
+                            <div class="equipo">
+                                <img src="./Recursos/club-tigres-uanl-logo-1.png" alt="Tigres" class="escudo">
+                                <span>Tigres</span>
+                            </div>
+                            <span class="vs">vs</span>
+                            <div class="equipo">
+                                <img src="./Recursos/Club_Necaxa_Logo.svg.png" alt="Necaxa" class="escudo">
+                                <span>Necaxa</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partido">
+                        <div class="equipos">
+                            <div class="equipo">
+                                <img src="./Recursos/Escudo_del_Cruz_Azul_AC.svg.png" alt="Cruz Azul" class="escudo">
+                                <span>Cruz Azul</span>
+                            </div>
+                            <span class="vs">vs</span>
+                            <div class="equipo">
+                                <img src="./Recursos/club-leon-logo.png" alt="León" class="escudo">
+                                <span>León</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fase fase-semifinal">
+                    <h3>Semifinal</h3>
+                    <div class="partido">
+                        <div class="equipos">
+                            <div class="equipo">
+                                <div class="equipo">
+                                    <img src="./Recursos/Club_Toluca_Logo.svg.png" alt="Toluca" class="escudo">
+                                    <span>Toluca</span>
+                                </div>
+                                <span class="vs">vs</span>
+                                <img src="./Recursos/club-tigres-uanl-logo-1.png" alt="Tigres" class="escudo">
+                                <span>Tigres</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partido">
+                        <div class="equipos">
+                            <div class="equipo">
+                                <div class="equipo">
+                                    <img src="./Recursos/Club-America-Logo.png" alt="América" class="escudo">
+                                    <span>América</span>
+                                </div>
+                                <span class="vs">vs</span>
+                                <img src="./Recursos/Escudo_del_Cruz_Azul_AC.svg.png" alt="Cruz Azul" class="escudo">
+                                <span>Cruz Azul</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fase fase-final">
+                    <h3>Final</h3>
+                    <div class="partido">
+                        <div class="equipos">
+                            <div class="equipo">
+                                <div class="equipo">
+                                    <img src="./Recursos/Club_Toluca_Logo.svg.png" alt="Toluca" class="escudo">
+                                    <span>Toluca</span>
+                                </div>
+                                <span class="vs">vs</span>
+                                <img src="./Recursos/Club-America-Logo.png" alt="América" class="escudo">
+                                <span>América</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="estadisticas">
+            <h2>Estadísticas</h2>
+            <div class="estadisticas-container">
+                <!-- Tabla de Goles -->
+                <div class="tabla-goles">
+                    <h3>Goles</h3>
+                    <table class="tabla-estadisticas">
+                        <thead>
+                            <tr>
+                                <th>Jugador</th>
+                                <th>Equipo</th>
+                                <th>Goles</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Paulinho</td>
+                                <td class="equipo-container">
+                                    <img src="./Recursos/Club_Toluca_Logo.svg.png" alt="Toluca" class="escudo">
+                                    Toluca
+                                </td>
+                                <td>14</td>
+                            </tr>
+                            <tr>
+                                <td>Uros Djurdjevic</td>
+                                <td class="equipo-container">
+                                    <img src="./Recursos/atlas-fc-logo-0-2048x2048-1.png" alt="Atlas" class="escudo">
+                                    Atlas
+                                </td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>Alexis Vega</td>
+                                <td class="equipo-container">
+                                    <img src="./Recursos/Club_Toluca_Logo.svg.png" alt="Toluca" class="escudo">
+                                    Toluca
+                                </td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>Raúl Zúñiga</td>
+                                <td class="equipo-container">
+                                    <img src="./Recursos/club-tijuana-logo-1.png" alt="Tijuana" class="escudo">
+                                    Tijuana
+                                </td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>Diber Cambindo</td>
+                                <td class="equipo-container">
+                                    <img src="./Recursos/Club_Necaxa_Logo.svg.png" alt="Necaxa" class="escudo">
+                                    Necaxa
+                                </td>
+                                <td>11</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tabla-asistencias">
+                    <h3>Asistencias</h3>
+                    <table class="tabla-estadisticas">
+                        <thead>
+                            <tr>
+                                <th>Jugador</th>
+                                <th>Equipo</th>
+                                <th>Asistencias</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Alexis Vega</td>
+                                <td class="equipo-container">
+                                    <img src="./Recursos/Club_Toluca_Logo.svg.png" alt="Toluca" class="escudo">
+                                    Toluca
+                                </td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Jesús Corona</td>
+                                <td class="equipo-container">
+                                    <img src="./Recursos/Club_de_Fútbol_Monterrey_2019_Logo.svg.png" alt="Monterrey" class="escudo">
+                                    Monterrey
+                                </td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>José Paradela</td>
+                                <td class="equipo-container">
+                                    <img src="./Recursos/Club_Necaxa_Logo.svg.png" alt="Necaxa" class="escudo">
+                                    Necaxa
+                                </td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>Marcel Ruiz</td>
+                                <td class="equipo-container">
+                                    <img src="./Recursos/Club_Toluca_Logo.svg.png" alt="Toluca" class="escudo">
+                                    Toluca
+                                </td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>Sergio Canales</td>
+                                <td class="equipo-container">
+                                    <img src="./Recursos/Club_de_Fútbol_Monterrey_2019_Logo.svg.png" alt="Monterrey" class="escudo">
+                                    Monterrey
+                                </td>
+                                <td>6</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>                
+    </main>
+    <section id="comments-section" style="display: none;">
+        <h2>Comentarios</h2>
+        <textarea id="comment-box" placeholder="Escribe tu comentario..."></textarea>
+        <button id="submit-comment">Enviar</button>
+        <div id="comments-list"></div>
+    </section>
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-login">&times;</span>
+            <h2>Iniciar Sesión</h2>
+            <form id="login-form">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-register">&times;</span>
+            <h2>Registrarse</h2>
+            <form id="register-form">
+                <label for="new-username">Usuario:</label>
+                <input type="text" id="new-username" name="new-username" required>
+                <label for="new-password">Contraseña:</label>
+                <input type="password" id="new-password" name="new-password" required>
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Proyecto creado por Edgar</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
